@@ -3,10 +3,10 @@ const lineChartContext = document.getElementById('lineChart').getContext('2d');
 const lineChart = new Chart(lineChartContext, {
     type: 'line',
     data: {
-        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+        labels: ['semana 1', 'semana 2', 'semana 3', 'semana 4', 'semana 5'],
         datasets: [{
-            label: 'Vendas',
-            data: [10, 20, 30, 40, 50],
+            label: 'Flores semanais',
+            data: [100, 40, 65, 150, 28],
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1
@@ -28,8 +28,8 @@ const barChart = new Chart(barChartContext, {
     data: {
         labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
         datasets: [{
-            label: 'Clientes',
-            data: [15, 25, 35, 45, 55],
+            label: 'flores mensais',
+            data: [1500, 796, 1718, 954, 1271],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
